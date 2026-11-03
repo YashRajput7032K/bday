@@ -1,0 +1,294 @@
+I1030 11:43:29.780300      21 server.go:1897] Starting language server process with pid 3914
+I1030 11:43:29.781402      21 server.go:1953] Language server version: 2.28.2
+I1030 11:43:29.781449      21 server.go:729] Language server will attempt to listen on host localhost
+I1030 11:43:29.782211      21 server.go:744] Language server listening on random port at 49762 for HTTPS (gRPC)
+I1030 11:43:29.782381      21 server.go:752] Language server listening on random port at 49760 for HTTP
+W1030 11:43:29.794613     105 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.794657     105 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.794843     105 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.794864     105 model_configs.go:355] Auth mode is unspecified, skipping fetchAvailableModels and returning empty response
+I1030 11:43:29.795130     111 store_client.go:714] summary store: starting background reconciliation (trigger=empty_on_open)
+I1030 11:43:29.795148     111 store_client.go:743] summary store: reconcile func returned 0 records, skipping
+W1030 11:43:29.795904     111 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.795923     111 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.795977     111 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.795988     111 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.796238      21 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.796251      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.796300      21 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.796310      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.796354      21 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.796364      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.796391      21 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.796399      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.796622      96 cache.go:146] Cache(peopleInfo): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.796643      96 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.805827      21 defaults.go:732] failed to get cs path: cs path /usr/bin/cs invalid
+I1030 11:43:29.805849      21 manager.go:120] Creating trajectory store manager with proto store and SQLite store
+W1030 11:43:29.805960      21 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.805976      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.806012      21 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.806029      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.806327     183 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1030 11:43:29.806526     183 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:29.806539     183 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1030 11:43:29.806618     183 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:29.806626     183 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1030 11:43:29.806668     183 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:29.806673     183 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1030 11:43:29.806678     183 manager.go:95] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is disabled, skipping entirely
+I1030 11:43:29.806689     183 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1030 11:43:29.806694     183 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1030 11:43:29.806697     183 manager.go:95] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1030 11:43:29.819317      21 server.go:1568] Serving UI bundle from embedded assets
+I1030 11:43:29.819360      21 server.go:3641] Auth succeeded, refreshing features and managers
+W1030 11:43:29.819414      21 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.819431      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.819436     147 cache.go:146] Cache(peopleInfo): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.819452     147 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.819475     147 rpcs_plugin_auth.go:106] Not reloading plugin MCP servers: cannot get the signed-in user: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.819487      21 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.819519      21 server.go:3653] State refresh took 0ms
+I1030 11:43:29.819524      21 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:43:29.819613      21 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:43:29.819618      21 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:43:29.819622      21 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:43:29.819629      21 server.go:3692] Retroactive projects migration enabled: false
+W1030 11:43:29.819659      21 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.819671      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.819710      21 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.819719      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.819799      21 projects_migration.go:552] Projects migration already started or completed, skipping
+W1030 11:43:29.819820      21 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.819839      21 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:29.819884      21 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.819893      21 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.819936      21 profiler.go:231] Continuous pprof profiling is disabled.
+I1030 11:43:29.819962     210 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1030 11:43:29.819997     159 reconcile_summaries.go:94] [Summaries] reconcile checked 0 conversations, restored 0, cached 0, skipped 0, dropped 0, cancelled false in 0ms (resident: 0 -> 0)
+I1030 11:43:29.820037     210 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:29.820044     210 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+W1030 11:43:29.820047     159 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.820062     159 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.820083     210 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:29.820089     210 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+W1030 11:43:29.820097     159 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.820109     159 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.820127     210 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:29.820134     210 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1030 11:43:29.820139     210 manager.go:95] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is disabled, skipping entirely
+I1030 11:43:29.820148     210 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1030 11:43:29.820154     210 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1030 11:43:29.820157     210 manager.go:95] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+W1030 11:43:29.820223     213 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.820234     213 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.820264      21 server.go:3345] Wrote hub discovery file: /Users/yashprabhusingrajput/.gemini/antigravity/daemon/hub_49760.json
+W1030 11:43:29.820271     213 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:29.820279     213 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:29.820272      21 server.go:3145] initialized server successfully in 39.88925ms
+W1030 11:43:34.811920     226 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.811958     226 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.812243     226 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.812306     226 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.818296      59 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.818342      59 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.818463      59 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.818481      59 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.823320      63 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.823355      63 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.823516      63 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.823563      63 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.852134     243 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.852211     243 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.852336     243 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.852360     243 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.854515      70 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.854568      70 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.854691      70 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.855758      70 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.869644      11 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.869701      11 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:34.869799      11 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:34.869815      11 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:42.296633     250 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:42.296748     250 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:42.296888     250 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:42.296920     250 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:44:04.225187     248 auth_provider.go:1325] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1030 11:44:04.225347     248 auth_provider.go:1289] [AuthProvider] SetWIFProvider called with wifProvider: ""
+I1030 11:44:04.225371     248 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1030 11:44:04.225388     248 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1030 11:44:04.225404     248 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1030 11:44:04.324735     248 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1030 11:44:04.324785     248 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1030 11:44:04.324821     248 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1030 11:44:07.586706     248 http_helpers.go:359] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd1db843f66ccab92
+I1030 11:44:09.818524     248 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x92054f81f11fb028
+I1030 11:44:10.787741     248 server.go:3641] Auth succeeded, refreshing features and managers
+W1030 11:44:10.787871     398 cache.go:177] Failed to refresh cache in background: admin controls not applicable
+I1030 11:44:12.955763     396 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1bb06909ac98c0cf
+I1030 11:44:13.955462     394 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9b536b0a0d02e56a
+I1030 11:44:13.977900     248 http_helpers.go:84] UseAICodeMendel routing switch changed: false -> true
+I1030 11:44:13.978019     248 remote_agent.go:178] Remote agent fastpush pin gate changed: false -> true
+I1030 11:44:13.978236     248 server.go:3653] State refresh took 3190ms
+I1030 11:44:13.978491     248 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.978510     248 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.978592     248 server.go:3692] Retroactive projects migration enabled: true
+I1030 11:44:13.978920     248 projects_migration.go:552] Projects migration already started or completed, skipping
+I1030 11:44:13.981711     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.981745     248 profiler.go:231] Continuous pprof profiling is disabled.
+I1030 11:44:13.981900     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.981917     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.981933     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.981960     366 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1030 11:44:13.982099     366 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:44:13.982129     366 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1030 11:44:13.982245     366 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:44:13.982261     366 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1030 11:44:13.982372     366 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:44:13.982384     366 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1030 11:44:13.982424     366 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1030 11:44:13.982528     366 manager.go:113] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] starting
+I1030 11:44:13.983154     366 manager.go:133] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] completed successfully in 82.292µs
+I1030 11:44:13.983198     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.983328     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.983341     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.983357     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.983366     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.983458     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.983470     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.983478     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.983763     366 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1030 11:44:13.983806     366 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1030 11:44:13.983817     366 manager.go:98] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is enabled
+I1030 11:44:13.983858     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.983918     366 manager.go:113] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] starting
+I1030 11:44:13.983944     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.983954     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.983963     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.983985     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.984106     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.984121     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.984130     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.984726     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.984862     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.984873     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.984882     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.984892     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.985005     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.985015     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.985023     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.985026     366 manager.go:133] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] completed successfully in 608.708µs
+I1030 11:44:13.985276     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.985383     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.985394     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.985401     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.985409     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.985512     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.985523     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.985531     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.985902     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.986000     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.986009     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.986016     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:44:13.986031     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:44:13.986113     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:44:13.986122     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:44:13.986154     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:49:31.388135     991 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x87b820d0f6a8efb5
+I1030 11:49:32.547577    1024 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd7f899967746dba3
+I1030 11:55:03.797938     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:55:03.798224     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:55:03.798257     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:55:03.798276     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:55:03.798293     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:55:03.798428     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:55:03.798443     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:55:03.798455     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:55:03.898256    1478 encoder_embed.go:85] Installing/updating embedded webm_encoder binary to /Users/yashprabhusingrajput/.gemini/antigravity/bin/webm_encoder
+I1030 11:55:04.931286     632 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x26eebf10142393c8
+I1030 11:55:05.584584     621 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9efbf2ee8d16b740
+W1030 11:55:39.790561     105 code_assist_client.go:207] AICode FetchConfig failed, falling back to CCPA ListExperiments: failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": context deadline exceeded
+I1030 11:58:24.029046     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:58:24.029232     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:58:24.029250     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:58:24.029262     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:58:24.029278     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:58:24.029378     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:58:24.029392     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:58:24.029402     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+W1030 11:58:54.790872     361 extract_searchable_content.go:50] conversationsearch: loading trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 for index extraction: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.793619    2027 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.793687    2027 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.793718    2027 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.793744    2027 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.793820    2027 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.793851    2027 interceptor.go:70] /exa.language_server_pb.LanguageServerService/GetSlashCommands (unknown): failed to resolve cascade config: failed to ensure trajectory loaded: failed to load trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 on-demand: failed to load trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.820244    2124 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.820293    2124 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.820313    2124 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.820337    2124 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.820445    2124 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+E1030 11:58:54.820474    2124 interceptor.go:70] /exa.language_server_pb.LanguageServerService/GetSlashCommands (unknown): failed to resolve cascade config: failed to ensure trajectory loaded: failed to load trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 on-demand: failed to load trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11: trajectory 9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 not found in any store: file does not exist
+I1030 11:58:54.921131    2780 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 cascade_send_latency_ms:0 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:0 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:0 trajectory_id:3ea8cf0d-7a03-4ed8-ae18-73543c63e091]
+I1030 11:58:55.019879    2782 monitor_config_manager_external.go:53] externalMonitorConfigManager: initialized with embedded config (3 monitors)
+I1030 11:58:55.019986    2782 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1030 11:58:55.020019    2782 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1030 11:58:57.179208    2803 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x47ef471188537cc0 ResponseID: KDnkavPaIYWIz7sPkrnZwAw
+I1030 11:58:57.658899    3225 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbf1a7d4401fd280b ResponseID: req_vrtx_011CgXwztEozuu1LNYkrrv8j
+I1030 11:58:58.289903     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:58:58.290076     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:58:58.290096     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:58:58.290109     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:58:58.290131     152 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:58:58.290269     152 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:58:58.290300     152 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:58:58.290317     152 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 12:00:31.561322    3508 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3a43b050c0075438
+I1030 12:00:32.159956    3451 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2b9277baf3e9b253
+I1030 12:01:28.601751    3610 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xab64f9a095fc539e ResponseID: req_vrtx_011CgXxC2NmswPui1XEaBLBC
+I1030 12:06:31.479167    4844 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x631ad79479d827b9
+I1030 12:06:31.992533    4857 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x19757d22253a5177
+I1030 12:09:37.931190    5381 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 cascade_send_latency_ms:0 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:0 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:0 trajectory_id:3ea8cf0d-7a03-4ed8-ae18-73543c63e091]
+I1030 12:09:37.940027    5382 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1030 12:09:37.940072    5382 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1030 12:09:40.667269    5821 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2eb695c08afe08b2 ResponseID: req_vrtx_011CgXxpJrTonHHG6krV6yYr
+I1030 12:12:31.495834    6402 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3138fe07eee889b7
+I1030 12:12:31.764910    6376 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3f900dd39b31805e
+I1030 12:13:12.269445    6482 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1238c8f09e2ced5c ResponseID: req_vrtx_011CgXy5tMmkRHhcK3SgTbKi
+I1030 12:18:31.435391    7498 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe55a683fd4dfc304
+I1030 12:18:32.298247    7469 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x32aead535c197105
+I1030 12:24:16.198704    7864 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ecfed5cd0b80f52
+I1030 12:24:16.525778    7776 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x46cd37d372e93044
+I1030 12:29:31.675606    8214 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x96993a909f63672e
+I1030 12:29:32.098498    8226 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xea808d416378fe05
+I1030 12:35:31.265640    8540 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3dd4fa0f60ab6695
+I1030 12:35:31.880760    8643 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xaec3a57d41bae37d
+I1030 12:41:30.630606    9048 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8ee3f424cfbc9986
+I1030 12:41:31.617034    9021 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xddecdcb1570ba2ac
+I1030 12:47:31.693882    9422 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xadfae89bda0faf72
+I1030 12:47:32.552037    9455 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xea65078a056c7cbb
+W1030 13:35:58.481329     105 code_assist_client.go:207] AICode FetchConfig failed, falling back to CCPA ListExperiments: failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": context deadline exceeded
+E1030 13:36:16.728241     105 errorreport.go:224] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 10.7.16.73:50414->172.217.119.4:443: read: operation timed out
+I1030 13:37:50.334974   10668 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x77c51f8e7590b7a0
+I1030 13:37:51.155374   10629 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc5bb6e4727d46f63
+I1030 13:43:50.276252   10067 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc28abfd3f106ce09
+I1030 13:43:51.400682   11130 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe76f839c32b07ca5
+I1030 13:46:30.735498   11153 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:9f865ae7-05ea-46e5-a3a4-79f0a66c1f11 cascade_send_latency_ms:5 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:8 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:15 trajectory_id:3ea8cf0d-7a03-4ed8-ae18-73543c63e091]
+I1030 13:46:30.759305   11634 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1030 13:46:30.759495   11634 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1030 13:46:33.757105   12042 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3ff04850f5a3874d ResponseID: req_vrtx_011CgY6Cnp9gCDgveEz8SitA
+W1030 13:56:53.912011     105 code_assist_client.go:207] AICode FetchConfig failed, falling back to CCPA ListExperiments: failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": context deadline exceeded
+E1030 14:12:08.430038     105 errorreport.go:224] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 10.7.16.73:51585->172.217.113.4:443: read: operation timed out
+I1030 15:00:14.558430   11634 run.go:301] Run: attempt 1 failed (stream reading error: read tcp 10.7.16.73:51281->172.217.119.4:443: read: operation timed out), retrying in 4s
+I1030 15:00:16.854650   12974 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x720d36b9f8e0615
+I1030 15:00:17.524442   12821 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcdc70f1aed7109f8
+E1030 15:00:19.732177   11634 errorreport.go:224] agent executor error: generating and executing: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 164h58m35s.
+E1030 15:00:19.733913   11634 errorreport.go:224] generating and executing: RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 164h58m35s.
+E1030 15:05:46.798358     101 client.go:93] Post "https://play.googleapis.com/log": dial tcp 172.217.117.4:443: i/o timeout
+W1030 15:06:23.414170     105 code_assist_client.go:207] AICode FetchConfig failed, falling back to CCPA ListExperiments: failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": dial tcp: lookup aicode.googleapis.com: no such host
+E1030 15:06:30.150977     105 errorreport.go:224] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 10.7.16.73:51771->172.217.118.4:443: read: connection reset by peer
+I1030 15:13:39.227835     215 server.go:3448] Got signal terminated, shutting down
+I1030 15:13:39.228972   16093 server.go:3490] Language server shutting down
+I1030 15:13:39.229011   16093 server.go:3495] Waiting for migrations to complete to prevent partial migration state...
+I1030 15:13:39.246929   16093 server.go:3581] Deleted discovery file: /Users/yashprabhusingrajput/.gemini/antigravity/daemon/hub_49760.json

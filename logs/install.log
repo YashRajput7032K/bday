@@ -1,0 +1,109 @@
+[INSTALL] Initializing update check. Platform: darwin-arm64, Extension Version: 1.10.0
+[INSTALL] Using custom channel override: production
+[INSTALL] Checking for updates at releaseBaseUrl=https://antigravity-cli-auto-updater-974169037036.us-central1.run.app...
+[INSTALL] Binary path does not exist: /Users/yashprabhusingrajput/.gemini/bin/agy
+[INSTALL] Checking for updates at releaseBaseUrl=https://antigravity-cli-auto-updater-974169037036.us-central1.run.app...
+[INSTALL] Checking Antigravity releases...
+[INSTALL] Found release v1.4.11 (darwin-arm64): https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.11-5180209989812224/darwin-arm/cli_mac_arm64.tar.gz
+[INSTALL] Downloading Antigravity Backend to temporary path /Users/yashprabhusingrajput/.gemini/bin/agy.tmp.50736537-92b9-4c4b-a2c5-c2c9279de131.tar.gz...
+[INSTALL] Download progress: 10% (5978907/59782550 bytes)
+[INSTALL] Download progress: 20% (11959067/59782550 bytes)
+[INSTALL] Download progress: 30% (17939227/59782550 bytes)
+[INSTALL] Download progress: 40% (23914179/59782550 bytes)
+[INSTALL] Download progress: 50% (29891431/59782550 bytes)
+[INSTALL] Download progress: 60% (35870365/59782550 bytes)
+[INSTALL] Download progress: 70% (41848995/59782550 bytes)
+[INSTALL] Download progress: 80% (47840027/59782550 bytes)
+[INSTALL] Download progress: 90% (53820187/59782550 bytes)
+[INSTALL] Download progress: 100% (59782550/59782550 bytes)
+[INSTALL] Verifying SHA512 checksum...
+[INSTALL] SHA512 checksum verified successfully.
+[INSTALL] Unpacking tar.gz archive into temporary dir /Users/yashprabhusingrajput/.gemini/bin/.unpack_6ae8eaec...
+[INSTALL] Antigravity Backend successfully installed to /Users/yashprabhusingrajput/.gemini/bin/agy.
+[LAUNCH] Spawning /Users/yashprabhusingrajput/.gemini/bin/agy (v1.4.11) --hub --hub-port=49733 --app_data_dir=antigravity --csrf_token=3e8127db-b633-45c9-9ca6-1f09b55519ae --add-dir=/Users/yashprabhusingrajput/Gitdemo/git-2
+[HUB STDOUT]   Antigravity server is running.
+[HUB STDOUT]   Server version:  2.28.2
+[HUB STDOUT]   CLI version:  1.4.11
+[HUB STDOUT]   ➜  Open in your browser:  http://localhost:49733
+[HUB STDOUT]   Press Ctrl-C to stop the server.
+[LAUNCH] Server at http://127.0.0.1:49733 is READY after 17 attempt(s).
+[LAUNCH ERROR] Server process exited unexpectedly with code 0, signal null
+[INSTALL] Initializing update check. Platform: darwin-arm64, Extension Version: 1.10.0
+[INSTALL] Using custom channel override: production
+[INSTALL] Checking for updates at releaseBaseUrl=https://antigravity-cli-auto-updater-974169037036.us-central1.run.app...
+[INSTALL] Using cached binary version v1.4.11 (skipping version check).
+[INSTALL] Found existing valid binary v1.4.11 (>= 1.1.11). Checking for updates with 3s budget...
+[INSTALL] Binary v1.4.11 is up to date for the current release channel (target v1.4.11). Skipping download.
+[LAUNCH] Spawning /Users/yashprabhusingrajput/.gemini/bin/agy (v1.4.11) --hub --hub-port=49760 --app_data_dir=antigravity --csrf_token=a65749e5-b567-4804-af5a-b46df8c962c5 --add-dir=/Users/yashprabhusingrajput/Desktop/A2 LAB POTFOLIO
+[HUB STDOUT]   Antigravity server is running.
+[HUB STDOUT]   Server version:  2.28.2
+[HUB STDOUT]   CLI version:  1.4.11
+[HUB STDOUT]   ➜  Open in your browser:  http://localhost:49760
+[HUB STDOUT]   Press Ctrl-C to stop the server.
+[LAUNCH] Server at http://127.0.0.1:49760 is READY after 2 attempt(s).
+[HUB STDOUT] ANTIGRAVITY_OPEN_URL: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&code_challenge=dU36RAuLJd1gnrBm6W-WoIRztqTZjMLzvmbkxod8hqM&code_challenge_method=S256&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A49776%2Fauth%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faicode&state=_9GrLIXICb_Oq1KeBA0_LA
+[LAUNCH] Intercepted auth URL: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&code_challenge=dU36RAuLJd1gnrBm6W-WoIRztqTZjMLzvmbkxod8hqM&code_challenge_method=S256&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A49776%2Fauth%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faicode&state=_9GrLIXICb_Oq1KeBA0_LA
+[LAUNCH ERROR] Server process exited unexpectedly with code 0, signal null
+[INSTALL] Initializing update check. Platform: darwin-arm64, Extension Version: 1.10.0
+[INSTALL] Using custom channel override: production
+[INSTALL] Checking for updates at releaseBaseUrl=https://antigravity-cli-auto-updater-974169037036.us-central1.run.app...
+[INSTALL] Using cached binary version v1.4.11 (skipping version check).
+[INSTALL] Found existing valid binary v1.4.11 (>= 1.1.11). Checking for updates with 3s budget...
+[INSTALL] Checking Antigravity releases...
+[INSTALL] Found release v1.4.12 (darwin-arm64): https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.12-4768735748292608/darwin-arm/cli_mac_arm64.tar.gz
+[INSTALL] Downloading Antigravity Backend to temporary path /Users/yashprabhusingrajput/.gemini/bin/agy.tmp.481a7dfc-15bd-4144-a8a2-bf4a99f25d72.tar.gz...
+[INSTALL] Download progress: 10% (5994269/59822635 bytes)
+[INSTALL] Download progress: 20% (11974659/59822635 bytes)
+[INSTALL] Download progress: 30% (17951517/59822635 bytes)
+[INSTALL] Download progress: 40% (23931899/59822635 bytes)
+[INSTALL] Download progress: 50% (29925171/59822635 bytes)
+[INSTALL] Download progress: 60% (35894262/59822635 bytes)
+[INSTALL] Download progress: 70% (41884682/59822635 bytes)
+[INSTALL] Download progress: 80% (47861509/59822635 bytes)
+[INSTALL] Download progress: 90% (53840729/59822635 bytes)
+[INSTALL] Download progress: 100% (59822635/59822635 bytes)
+[INSTALL] Verifying SHA512 checksum...
+[INSTALL] SHA512 checksum verified successfully.
+[INSTALL] Unpacking tar.gz archive into temporary dir /Users/yashprabhusingrajput/.gemini/bin/.unpack_bce55f10...
+[INSTALL] Antigravity Backend successfully installed to /Users/yashprabhusingrajput/.gemini/bin/agy.
+[LAUNCH] Spawning /Users/yashprabhusingrajput/.gemini/bin/agy (v1.4.12) --hub --hub-port=52533 --app_data_dir=antigravity --csrf_token=f3b756e1-4d0a-47cd-a601-8d578f1a8848 --add-dir=/Users/yashprabhusingrajput/Desktop/A2 LAB POTFOLIO
+[LAUNCH] Server at http://127.0.0.1:52533 is READY after 11 attempt(s).
+[HUB STDOUT]   Antigravity server is running.
+[HUB STDOUT]   Server version:  2.28.2
+[HUB STDOUT]   CLI version:  1.4.12
+[HUB STDOUT]   ➜  Open in your browser:  http://localhost:52533
+[HUB STDOUT]   Press Ctrl-C to stop the server.
+[LAUNCH ERROR] Server process exited unexpectedly with code 0, signal null
+[INSTALL] Initializing update check. Platform: darwin-arm64, Extension Version: 1.10.0
+[INSTALL] Using custom channel override: production
+[INSTALL] Checking for updates at releaseBaseUrl=https://antigravity-cli-auto-updater-974169037036.us-central1.run.app...
+[INSTALL] Using cached binary version v1.4.12 (skipping version check).
+[INSTALL] Found existing valid binary v1.4.12 (>= 1.1.11). Checking for updates with 3s budget...
+[INSTALL] Could not fetch release manifest: Error: Failed to fetch release manifest for https://antigravity-cli-auto-updater-974169037036.us-central1.run.app. Details:
+- https://antigravity-cli-auto-updater-974169037036.us-central1.run.app/manifests/darwin_arm64.json: fetch failed; cause: getaddrinfo ENOTFOUND antigravity-cli-auto-updater-974169037036.us-central1.run.app. Falling back to validation target version 1.1.11.
+[INSTALL] Fast-path update check skipped; continuing with existing binary v1.4.12.
+[LAUNCH] Spawning /Users/yashprabhusingrajput/.gemini/bin/agy (v1.4.12) --hub --hub-port=54066 --app_data_dir=antigravity --csrf_token=0762bd64-bbcd-4be0-880e-eb25988a9ef1
+[HUB STDOUT]   Antigravity server is running.
+[HUB STDOUT]   Server version:  2.28.2
+[HUB STDOUT]   CLI version:  1.4.12
+[HUB STDOUT]   ➜  Open in your browser:  http://localhost:54066
+[HUB STDOUT]   Press Ctrl-C to stop the server.
+[LAUNCH] Server at http://127.0.0.1:54066 is READY after 2 attempt(s).
+[HUB STDOUT] ANTIGRAVITY_OPEN_URL: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&code_challenge=93QBTfs6d6tz8l03yw5pdc9PDOmFwIDPT0hfdTV0Rgs&code_challenge_method=S256&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A54074%2Fauth%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faicode&state=_r77UhVVaozQrU9OJsSxJg
+[LAUNCH] Intercepted auth URL: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&code_challenge=93QBTfs6d6tz8l03yw5pdc9PDOmFwIDPT0hfdTV0Rgs&code_challenge_method=S256&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A54074%2Fauth%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faicode&state=_r77UhVVaozQrU9OJsSxJg
+[LAUNCH ERROR] Server process exited unexpectedly with code 0, signal null
+[INSTALL] Initializing update check. Platform: darwin-arm64, Extension Version: 1.10.0
+[INSTALL] Using custom channel override: production
+[INSTALL] Checking for updates at releaseBaseUrl=https://antigravity-cli-auto-updater-974169037036.us-central1.run.app...
+[INSTALL] Using cached binary version v1.4.12 (skipping version check).
+[INSTALL] Found existing valid binary v1.4.12 (>= 1.1.11). Checking for updates with 3s budget...
+[INSTALL] Binary v1.4.12 is up to date for the current release channel (target v1.4.12). Skipping download.
+[LAUNCH] Spawning /Users/yashprabhusingrajput/.gemini/bin/agy (v1.4.12) --hub --hub-port=54106 --app_data_dir=antigravity --csrf_token=2f1dc083-329a-46a1-b39e-13865b92fd1c
+[HUB STDOUT]   Antigravity server is running.
+[HUB STDOUT]   Server version:  2.28.2
+[HUB STDOUT]   CLI version:  1.4.12
+[HUB STDOUT]   ➜  Open in your browser:  http://localhost:54106
+[HUB STDOUT]   Press Ctrl-C to stop the server.
+[LAUNCH] Server at http://127.0.0.1:54106 is READY after 4 attempt(s).
+[HUB STDOUT] ANTIGRAVITY_OPEN_URL: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&code_challenge=BEHalwvJWCMkFCOcP7e5dGYdXdwm3I5asm9iqcFsCVA&code_challenge_method=S256&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A54141%2Fauth%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faicode&state=4nA3cS_nlPM6o8LdEHoY_g
+[LAUNCH] Intercepted auth URL: https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&code_challenge=BEHalwvJWCMkFCOcP7e5dGYdXdwm3I5asm9iqcFsCVA&code_challenge_method=S256&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A54141%2Fauth%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faicode&state=4nA3cS_nlPM6o8LdEHoY_g

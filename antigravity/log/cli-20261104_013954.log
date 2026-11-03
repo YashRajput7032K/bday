@@ -1,0 +1,222 @@
+I1104 01:39:54.401925      22 server.go:1897] Starting language server process with pid 18595
+I1104 01:39:54.402568      22 server.go:1953] Language server version: 2.28.2
+I1104 01:39:54.402587      22 server.go:729] Language server will attempt to listen on host localhost
+I1104 01:39:54.403768      22 server.go:744] Language server listening on random port at 54108 for HTTPS (gRPC)
+I1104 01:39:54.403925      22 server.go:752] Language server listening on random port at 54106 for HTTP
+I1104 01:39:54.414246      22 auth_provider.go:1289] [AuthProvider] SetWIFProvider called with wifProvider: ""
+I1104 01:39:54.414274      22 auth_provider.go:1325] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1104 01:39:54.414281      22 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1104 01:39:54.414285      22 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1104 01:39:54.414288      22 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1104 01:39:54.415828     110 store_client.go:714] summary store: starting background reconciliation (trigger=startup)
+I1104 01:39:54.416118     110 store_client.go:764] summary store: reconciliation complete, synced 1 records
+I1104 01:39:54.881315      99 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1104 01:39:54.881437      99 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1104 01:39:54.881452      99 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1104 01:39:56.874858     104 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf5c51381476ee79d
+I1104 01:39:57.059938      99 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9f21cd0963b978a7
+W1104 01:39:57.517870      22 defaults.go:732] failed to get cs path: cs path /usr/bin/cs invalid
+I1104 01:39:57.517961      22 manager.go:120] Creating trajectory store manager with proto store and SQLite store
+I1104 01:39:57.518946     213 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1104 01:39:57.519177     213 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:39:57.519194     213 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1104 01:39:57.519276     213 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:39:57.519285     213 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1104 01:39:57.519359     213 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:39:57.519367     213 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1104 01:39:57.540776      22 server.go:1568] Serving UI bundle from embedded assets
+I1104 01:39:57.540832      22 server.go:3653] Auth succeeded, refreshing features and managers
+I1104 01:39:58.943135     124 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x350d0c08a2afa43c
+I1104 01:39:59.645993     104 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe835d277525d95da
+I1104 01:39:59.668114     104 http_helpers.go:84] UseAICodeMendel routing switch changed: false -> true
+I1104 01:39:59.668181     104 remote_agent.go:178] Remote agent fastpush pin gate changed: false -> true
+I1104 01:39:59.668125     213 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1104 01:39:59.668605     213 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:39:59.668661     213 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1104 01:39:59.668709     213 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1104 01:39:59.668744     213 manager.go:95] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1104 01:40:00.508821      22 server.go:3665] State refresh took 2967ms
+I1104 01:40:00.508881      22 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1104 01:40:00.509346      22 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1104 01:40:00.509367      22 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:40:00.509391      22 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:40:00.509458      22 server.go:3704] Retroactive projects migration enabled: true
+I1104 01:40:00.509868      22 projects_migration.go:552] Projects migration already started or completed, skipping
+I1104 01:40:00.510314     258 reconcile_summaries.go:94] [Summaries] reconcile checked 1 conversations, restored 0, cached 1, skipped 0, dropped 0, cancelled false in 0ms (resident: 0 -> 0)
+I1104 01:40:00.511017     221 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1104 01:40:00.511016      22 profiler.go:231] Continuous pprof profiling is disabled.
+I1104 01:40:00.511036     265 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1104 01:40:00.511221     265 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:00.511242     265 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1104 01:40:00.511371     265 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:00.511386     265 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1104 01:40:00.511501     265 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:00.511514     265 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1104 01:40:00.511556     265 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1104 01:40:00.511677     265 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:00.511717     265 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1104 01:40:00.511758     265 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1104 01:40:00.511771     265 manager.go:98] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is enabled
+I1104 01:40:00.511888     265 manager.go:107] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:00.511956      22 server.go:3357] Wrote hub discovery file: /Users/yashprabhusingrajput/.gemini/antigravity/daemon/hub_54106.json
+I1104 01:40:00.511993      22 server.go:3140] initialized server successfully in 6.110007458s
+I1104 01:40:00.513438     221 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1104 01:40:00.513457     221 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:40:00.513469     221 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:40:02.046774     221 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1104 01:40:02.047080     221 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1104 01:40:02.047106     221 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:40:02.047138     221 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:40:02.047151     221 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1104 01:40:02.047297     221 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1104 01:40:02.047310     221 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:40:02.047326     221 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:40:02.047334     221 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1104 01:40:02.047452     221 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1104 01:40:02.047462     221 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:40:02.047468     221 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:40:30.356037     824 auth_provider.go:1289] [AuthProvider] SetWIFProvider called with wifProvider: ""
+I1104 01:40:30.356181     824 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1104 01:40:30.356202     824 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1104 01:40:30.356215     824 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+W1104 01:40:30.519942     685 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1104 01:40:30.519990     685 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1104 01:40:30.520064     685 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1104 01:40:30.520074     685 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1104 01:40:30.524353     604 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1104 01:40:30.524426     604 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1104 01:40:30.524674     604 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1104 01:40:30.524697     604 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1104 01:40:33.194633     899 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1104 01:40:33.194752     899 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1104 01:40:33.194897     899 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1104 01:40:33.194928     899 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1104 01:40:33.195229     898 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1104 01:40:33.195285     898 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1104 01:40:33.195399     898 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1104 01:40:33.195424     898 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1104 01:40:47.674490     625 auth_provider.go:1325] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1104 01:40:47.674621     625 auth_provider.go:1289] [AuthProvider] SetWIFProvider called with wifProvider: ""
+I1104 01:40:47.674655     625 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1104 01:40:47.674684     625 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1104 01:40:47.674710     625 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1104 01:40:47.771041     625 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1104 01:40:47.771154     625 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1104 01:40:47.771163     625 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1104 01:40:51.213546     625 http_helpers.go:359] URL: https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf995954150e1bf77
+I1104 01:40:53.634561     625 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x414abec5bb723824
+I1104 01:40:56.031834     104 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc365e99cfb845c21
+I1104 01:40:56.120738     625 server.go:3653] Auth succeeded, refreshing features and managers
+W1104 01:40:56.120790     969 cache.go:177] Failed to refresh cache in background: admin controls not applicable
+I1104 01:40:58.125987     967 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa47752111c0bfb3a
+I1104 01:40:59.513865     965 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc3228082712ec2a7
+I1104 01:40:59.521616     625 server.go:3665] State refresh took 3400ms
+I1104 01:40:59.522267     625 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:40:59.522301     625 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:40:59.522338     625 server.go:3704] Retroactive projects migration enabled: true
+I1104 01:40:59.522817     625 projects_migration.go:552] Projects migration already started or completed, skipping
+I1104 01:40:59.522990     625 profiler.go:231] Continuous pprof profiling is disabled.
+I1104 01:40:59.522984    1004 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1104 01:40:59.523198    1004 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:59.523218    1004 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1104 01:40:59.523339    1004 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:59.523350    1004 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1104 01:40:59.523471    1004 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:59.523483    1004 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1104 01:40:59.523513    1004 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1104 01:40:59.523638    1004 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:40:59.523696    1004 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1104 01:40:59.523724    1004 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1104 01:40:59.523735    1004 manager.go:98] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is enabled
+I1104 01:40:59.523852    1004 manager.go:107] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1104 01:41:29.047977     221 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1104 01:41:29.048144     221 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1104 01:41:29.048167     221 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:41:29.048181     221 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:41:29.048401     221 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1104 01:41:29.048647     221 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1104 01:41:29.048714     221 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:41:29.048726     221 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:41:29.048736     221 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1104 01:41:29.048846     221 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1104 01:41:29.048858     221 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1104 01:41:29.048874     221 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1104 01:46:56.175540    1863 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7563947af5f45d
+I1104 01:46:57.094605    1808 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x473913c46f59f570
+I1104 01:52:55.666975    2379 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x990602e9198ecc59
+I1104 01:52:56.826111    2363 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb19e630e64375252
+I1104 01:58:56.354505    2748 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5eb39aa40604bf05
+I1104 01:58:57.481390    2225 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb78371fcca1eaf51
+I1104 02:04:55.881325    3156 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x24e8e841c5e95eb0
+I1104 02:04:57.319223    3147 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd4bc6a08c29ca094
+I1104 02:10:56.029695    3546 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x96edb959563e51a7
+I1104 02:10:56.643395    3555 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x48858d63142683b0
+I1104 02:16:56.375244    3962 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x540f88ec1ebb4095
+I1104 02:16:57.091666    3949 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7f22784663b1829e
+E1104 02:21:59.461280    4303 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 43e340de-8be6-48f3-99d8-92506447467b: trajectory 43e340de-8be6-48f3-99d8-92506447467b not found in any store: file does not exist
+E1104 02:21:59.461878    4303 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 43e340de-8be6-48f3-99d8-92506447467b: trajectory 43e340de-8be6-48f3-99d8-92506447467b not found in any store: file does not exist
+E1104 02:21:59.462062    4303 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 43e340de-8be6-48f3-99d8-92506447467b: trajectory 43e340de-8be6-48f3-99d8-92506447467b not found in any store: file does not exist
+E1104 02:21:59.462141    4303 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 43e340de-8be6-48f3-99d8-92506447467b: trajectory 43e340de-8be6-48f3-99d8-92506447467b not found in any store: file does not exist
+E1104 02:21:59.462933    4303 cascade_manager.go:1540] LoadTrajectory LoadUnsafe failed for 43e340de-8be6-48f3-99d8-92506447467b: trajectory 43e340de-8be6-48f3-99d8-92506447467b not found in any store: file does not exist
+E1104 02:21:59.463212    4303 interceptor.go:70] /exa.language_server_pb.LanguageServerService/GetSlashCommands (unknown): failed to resolve cascade config: failed to ensure trajectory loaded: failed to load trajectory 43e340de-8be6-48f3-99d8-92506447467b on-demand: failed to load trajectory 43e340de-8be6-48f3-99d8-92506447467b: trajectory 43e340de-8be6-48f3-99d8-92506447467b not found in any store: file does not exist
+E1104 02:21:59.471445    4376 cascade_run_state.go:127] Failed to create git bundle syncer for 43e340de-8be6-48f3-99d8-92506447467b (continuing without bundle persistence): bundle persistence is unsupported in this build
+I1104 02:21:59.492930    4517 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:43e340de-8be6-48f3-99d8-92506447467b cascade_send_latency_ms:0 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:0 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:1 trajectory_id:42447121-e848-4ba9-8fe4-5f1bee8796b6]
+I1104 02:21:59.817854    4520 monitor_config_manager_external.go:53] externalMonitorConfigManager: initialized with embedded config (3 monitors)
+I1104 02:21:59.818361    4520 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 02:21:59.818574    4520 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 02:22:01.219656    4466 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4265d7983a273f2b
+I1104 02:22:01.939884    4176 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1dab56d6a54cce55 ResponseID: cUnqaq-tJZOO3LUPoeqYkAo
+I1104 02:22:02.098694    4464 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7026216d58123e5
+I1104 02:22:03.062688    4774 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe5f2b6e75cfc208e ResponseID: req_vrtx_011Cggf3ssPJNabFADTEbDLb
+W1104 02:22:11.263921    4520 permission_grant_store.go:103] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file /Users/yashprabhusingrajput/.gemini/config/projects/outside-of-project.json: open /Users/yashprabhusingrajput/.gemini/config/projects/outside-of-project.json: no such file or directory
+I1104 02:22:11.267181    5146 trusted_escape.go:172] [trusted-cli-escape] escapable binaries=[]
+I1104 02:22:11.267230    5146 trusted_escape.go:174] [trusted-cli-escape] no escapable binaries; escape wiring skipped
+I1104 02:22:14.360165    4993 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x17248814e688bf54 ResponseID: req_vrtx_011Cggf4jhnL6y57sRrbH9RF
+I1104 02:23:30.941753    5296 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbc87171bb68ac7e1 ResponseID: req_vrtx_011CggfAMwFMvEC5mHsMFPbv
+I1104 02:27:35.454165    6675 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x29dbfbedee624f8
+I1104 02:27:55.975609    6704 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe0c9a38cea0b00bd
+I1104 02:33:55.562853    7083 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe574e0a6276ff350
+I1104 02:33:57.304490    7137 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x27be254d9610330a
+I1104 02:39:55.806488    7535 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x46fcc7fa552fc7c4
+I1104 02:39:56.474121    7550 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xce87e18183980faa
+I1104 02:45:55.953826    8259 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd7f265b1738ff7b0
+I1104 02:45:57.173776    8203 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xaab16c6dae493d35
+I1104 02:46:42.050035    8360 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:43e340de-8be6-48f3-99d8-92506447467b cascade_send_latency_ms:6 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:3 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:9 trajectory_id:42447121-e848-4ba9-8fe4-5f1bee8796b6]
+I1104 02:46:42.072183    8361 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 02:46:42.072341    8361 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 02:46:45.187688    8552 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb289be3059e37a42 ResponseID: req_vrtx_011Cgggw9zmvNwTLDe3R1YxZ
+I1104 02:46:51.341538    8697 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6c537c4d79d7428a ResponseID: req_vrtx_011Cgggwagq2TwkkMAmCB6RZ
+I1104 02:47:00.762288    8911 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd63420003c229d88 ResponseID: req_vrtx_011CgggxHgfJqwrBHVAE5Cot
+I1104 02:47:06.088774    8940 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x113d0659f59dc344 ResponseID: req_vrtx_011Cgggxh4qX8GLUGtTSmujf
+I1104 02:47:15.280276    9025 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4dd8b48c72f52a3 ResponseID: req_vrtx_011CgggyNMz1JVvZJAqEy3a8
+I1104 02:47:25.301794    9178 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc02d2eee62c52bee ResponseID: req_vrtx_011Cgggz83HfPrs5viQKFnVz
+I1104 02:47:32.610434    9247 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x218f993f9f4fa1c8 ResponseID: req_vrtx_011Cgggze1MEpkcUkx4gpZvb
+I1104 02:47:51.139439    9329 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x755498dc5401ca4a ResponseID: req_vrtx_011Cggh22Xi5udf5uqdpfsVw
+I1104 02:47:55.626077    9402 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x64def9669fedf66c ResponseID: req_vrtx_011Cggh2KVupHHSajnCuEWtp
+I1104 02:51:50.863310   10499 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa15c1a2d6c4cd9d6
+I1104 02:51:52.195748   10422 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc0b7e4a4f1b68eba
+I1104 02:56:36.301879   10799 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:43e340de-8be6-48f3-99d8-92506447467b cascade_send_latency_ms:0 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:0 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:0 trajectory_id:42447121-e848-4ba9-8fe4-5f1bee8796b6]
+I1104 02:56:36.310467   10800 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 02:56:36.310508   10800 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 02:56:39.899070   11116 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x87fcc157969bea24 ResponseID: req_vrtx_011Cgghgy9eHuqT9fwDEp7te
+W1104 02:56:44.965789   10800 permission_grant_store.go:103] failed to read project file for outside-of-project in GetSandboxConfig: failed to read project config file /Users/yashprabhusingrajput/.gemini/config/projects/outside-of-project.json: open /Users/yashprabhusingrajput/.gemini/config/projects/outside-of-project.json: no such file or directory
+I1104 02:56:44.968398   11382 trusted_escape.go:172] [trusted-cli-escape] escapable binaries=[]
+I1104 02:56:44.968710   11382 trusted_escape.go:174] [trusted-cli-escape] no escapable binaries; escape wiring skipped
+I1104 02:56:47.720757   11401 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc360660080503ba9 ResponseID: req_vrtx_011CgghhYh1ZezEci2xs2wh7
+I1104 02:56:52.021706   11563 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb904d3b9cdf416ec ResponseID: req_vrtx_011CgghhsXLkuy6s1FSPuJ8C
+I1104 02:56:55.880313   11714 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3aa85a9ff748f469
+I1104 02:56:56.950402   11701 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbd5fa12ff17ed039
+I1104 02:57:12.194627   12236 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x817207d84cfc933f ResponseID: req_vrtx_011CgghjMJxViMfHsSgscnHg
+I1104 02:57:17.007167   12325 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdced01114b781c49 ResponseID: req_vrtx_011CgghjigKuy4X7ceir7SNL
+I1104 02:59:42.777640   13219 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:43e340de-8be6-48f3-99d8-92506447467b cascade_send_latency_ms:0 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:0 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:0 trajectory_id:42447121-e848-4ba9-8fe4-5f1bee8796b6]
+I1104 02:59:42.789886   13220 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 02:59:42.789944   13220 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 02:59:45.077225   13389 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeefc8b2b1bb0f83f ResponseID: req_vrtx_011CgghvdwtHtpehDptjFmsq
+I1104 02:59:53.191479   13614 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e13fe784317b698 ResponseID: req_vrtx_011CgghwEjtqjps2eV2hJpGE
+I1104 03:01:50.243385   13733 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:43e340de-8be6-48f3-99d8-92506447467b cascade_send_latency_ms:0 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:0 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:0 trajectory_id:42447121-e848-4ba9-8fe4-5f1bee8796b6]
+I1104 03:01:50.248243   13734 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 03:01:50.248276   13734 monitoring.go:401] [Sonar] Resolved active tags: [jetski_mode_default policy_guardian sonar_skip_tags] (detected surface: "")
+I1104 03:01:52.669852   14197 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5baae50944e4447 ResponseID: req_vrtx_011Cggi62xEafni1BpHSZHbZ
+I1104 03:02:01.596869   14343 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x91abe37d270af900
+I1104 03:02:02.602577   14358 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x25617244d23a62d5
+I1104 03:02:03.315856   14410 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x910179a45e2decb9 ResponseID: req_vrtx_011Cggi6oeZJFVbaUQ65YHcP

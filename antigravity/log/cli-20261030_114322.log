@@ -1,0 +1,136 @@
+I1030 11:43:22.819098      67 server.go:1897] Starting language server process with pid 3894
+I1030 11:43:22.820018      67 server.go:1953] Language server version: 2.28.2
+I1030 11:43:22.820033      67 server.go:729] Language server will attempt to listen on host localhost
+I1030 11:43:22.820876      67 server.go:744] Language server listening on random port at 49753 for HTTPS (gRPC)
+I1030 11:43:22.821113      67 server.go:752] Language server listening on random port at 49733 for HTTP
+W1030 11:43:22.835414      89 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.835498      89 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.835888      89 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.835910      89 model_configs.go:355] Auth mode is unspecified, skipping fetchAvailableModels and returning empty response
+I1030 11:43:22.837224      97 store_client.go:714] summary store: starting background reconciliation (trigger=empty_on_open)
+I1030 11:43:22.837354      97 store_client.go:743] summary store: reconcile func returned 0 records, skipping
+W1030 11:43:22.838087      78 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.838147      78 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.838274      78 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.838295      78 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.838647      97 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.838669      97 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.838774      97 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.838784      97 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.838943      67 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.838963      67 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.839017      67 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.839026      67 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.839072      67 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.839081      67 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.839112      67 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.839120      67 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.839283     117 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.839403     117 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.839433     117 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.839443     117 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.839651      67 server.go:2361] Generated and saved persistent installation UUID: 66324856-d062-4963-bf25-d892d3a05df5
+I1030 11:43:22.840012      67 remote_control_naming.go:130] Generated and saved default remote control hostname: yashs-macbook-air-3-local-stellar-signal
+W1030 11:43:22.840247      47 cache.go:146] Cache(peopleInfo): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.840264      47 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.849931      67 defaults.go:732] failed to get cs path: cs path /usr/bin/cs invalid
+I1030 11:43:22.849943     151 migrate.go:49] Migration marker /Users/yashprabhusingrajput/.gemini/config/.migrated does not exist. Attempting migration from AppDataDir /Users/yashprabhusingrajput/.gemini/antigravity.
+I1030 11:43:22.849973      67 manager.go:120] Creating trajectory store manager with proto store and SQLite store
+I1030 11:43:22.850118     151 migrate.go:157] Migration complete, marked with /Users/yashprabhusingrajput/.gemini/config/.migrated
+W1030 11:43:22.850143      67 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.850163      67 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.850197      67 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.850205      67 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.850272     152 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.850292     152 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.850329     152 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.850339     152 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.853526     182 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1030 11:43:22.853607     182 manager.go:113] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] starting
+I1030 11:43:22.853806     182 project_uris_migration.go:42] Starting ProjectUrisMigration
+I1030 11:43:22.853847     182 manager.go:133] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] completed successfully in 41.458µs
+I1030 11:43:22.854014     182 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1030 11:43:22.854062     182 manager.go:113] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] starting
+I1030 11:43:22.854294     182 manager.go:133] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] completed successfully in 72.375µs
+I1030 11:43:22.854463     182 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1030 11:43:22.854529     182 manager.go:113] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] starting
+I1030 11:43:22.854752     182 manager.go:133] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] completed successfully in 56.625µs
+I1030 11:43:22.854895     182 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1030 11:43:22.854901     182 manager.go:95] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is disabled, skipping entirely
+I1030 11:43:22.854914     182 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1030 11:43:22.854918     182 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1030 11:43:22.854921     182 manager.go:95] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1030 11:43:22.865836      67 server.go:1568] Serving UI bundle from embedded assets
+I1030 11:43:22.865884      67 server.go:3641] Auth succeeded, refreshing features and managers
+W1030 11:43:22.865941      67 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.865959      67 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.865978     184 cache.go:146] Cache(peopleInfo): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.865994     184 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.866031     184 rpcs_plugin_auth.go:106] Not reloading plugin MCP servers: cannot get the signed-in user: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.866065      67 errorreport.go:224] Failed to poll ListExperiments: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.866104      67 server.go:3653] State refresh took 0ms
+I1030 11:43:22.866111      67 server.go:3663] [RemoteControl] Subscription callback triggered.
+W1030 11:43:22.866119     185 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.866133     185 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.866157     185 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.866168     185 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.866208      67 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:43:22.866214      67 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:43:22.866217      67 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:43:22.866223      67 server.go:3692] Retroactive projects migration enabled: false
+W1030 11:43:22.866246      67 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.866256      67 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.866293      67 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.866304      67 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.866597     189 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:43:22.866628      67 projects_migration.go:582] No conversations found, marking projects migration as complete
+I1030 11:43:22.866674     189 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:43:22.866697     189 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:43:22.866702     189 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:43:22.866706     189 server.go:3663] [RemoteControl] Subscription callback triggered.
+W1030 11:43:22.866691      67 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.866758     189 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:43:22.866770     189 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:43:22.866774     189 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+E1030 11:43:22.866760      67 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.866839      67 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.866855      67 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.867079     189 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:43:22.867088      67 profiler.go:231] Continuous pprof profiling is disabled.
+I1030 11:43:22.867141     189 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:43:22.867149     189 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:43:22.867154     189 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:43:22.867157     189 server.go:3663] [RemoteControl] Subscription callback triggered.
+I1030 11:43:22.867131     270 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1030 11:43:22.867206     189 server.go:3666] [RemoteControl] RemoteControlEnabled value: false
+I1030 11:43:22.867213     189 server.go:4471] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1030 11:43:22.867216     189 server.go:4170] [RemoteControl] Resolved proxyServerURL: ""
+I1030 11:43:22.867321     267 reconcile_summaries.go:94] [Summaries] reconcile checked 0 conversations, restored 0, cached 0, skipped 0, dropped 0, cancelled false in 0ms (resident: 0 -> 0)
+I1030 11:43:22.867332     270 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:22.867361     270 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+W1030 11:43:22.867381     267 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.867393     267 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:22.867426     267 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:22.867433     267 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.867455     270 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:22.867468     270 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1030 11:43:22.867559     270 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1030 11:43:22.867569     270 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1030 11:43:22.867578     270 manager.go:95] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is disabled, skipping entirely
+W1030 11:43:22.867589     273 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.867598     270 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+E1030 11:43:22.867604     273 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.867613     270 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1030 11:43:22.867642     270 manager.go:95] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+W1030 11:43:22.867661     273 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.867695      67 server.go:3345] Wrote hub discovery file: /Users/yashprabhusingrajput/.gemini/antigravity/daemon/hub_49733.json
+E1030 11:43:22.867712     273 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:22.867708      67 server.go:3145] initialized server successfully in 48.374167ms
+I1030 11:43:28.608684       8 server.go:3448] Got signal terminated, shutting down
+I1030 11:43:28.608778     361 server.go:3490] Language server shutting down
+I1030 11:43:28.608793     361 server.go:3495] Waiting for migrations to complete to prevent partial migration state...
+W1030 11:43:28.609003     361 cache.go:146] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: You are not logged into Antigravity.
+E1030 11:43:28.609047     361 errorreport.go:224] error getting token source: You are not logged into Antigravity.
+W1030 11:43:28.609154     361 cache.go:146] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+E1030 11:43:28.609174     361 errorreport.go:224] failed to get load code assist response: error getting token source: You are not logged into Antigravity.
+I1030 11:43:28.614401     361 server.go:3581] Deleted discovery file: /Users/yashprabhusingrajput/.gemini/antigravity/daemon/hub_49733.json

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Birthday Khushbu Didi! 🎂</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--pink:#f8b4c8;--peach:#fcd5c0;--cream:#fff8f0;--gold:#d4a843;--gold-light:#f0d68a;--deep:#8b3a62;--soft-text:#5a2d42}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',sans-serif;background:var(--cream);color:var(--soft-text);overflow-x:hidden}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* ── Sparkle canvas ── */
+#sparkle-canvas{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999}
+
+/* ── Slides ── */
+.slide{min-height:100vh;display:none;flex-direction:column;align-items:center;justify-content:center;padding:2rem 1.2rem;position:relative;text-align:center}
+.slide.active{display:flex}
+
+/* ── Music control ── */
+#music-ctrl{position:fixed;top:1rem;right:1rem;z-index:1000;background:rgba(255,255,255,.85);backdrop-filter:blur(6px);border:2px solid var(--gold-light);border-radius:2rem;padding:.4rem .9rem;font-size:.82rem;cursor:pointer;color:var(--deep);font-family:'Poppins',sans-serif;display:flex;align-items:center;gap:.35rem;transition:transform .2s}
+#music-ctrl:hover{transform:scale(1.06)}
+#music-note{font-size:.7rem;color:#999;position:fixed;top:3.5rem;right:1rem;max-width:200px;text-align:right;z-index:1000;background:rgba(255,255,255,.8);padding:.3rem .6rem;border-radius:.5rem;font-size:.65rem}
+
+/* ── Nav ── */
+.nav-btn{position:absolute;top:1rem;left:1rem;background:none;border:none;font-size:1.4rem;cursor:pointer;color:var(--deep);z-index:10;opacity:.7;transition:opacity .2s}
+.nav-btn:hover{opacity:1}
+
+/* ── Decorations ── */
+.deco{position:absolute;font-size:2rem;opacity:.25;pointer-events:none;user-select:none}
+
+/* ═══ SLIDE 1 ═══ */
+#slide1{background:radial-gradient(ellipse at 50% 42%,rgba(255,255,255,.96) 0%,rgba(255,245,250,.92) 36%,transparent 68%),linear-gradient(135deg,#e8dcff 0%,#f8d9e9 48%,#ffe4ce 100%);isolation:isolate}
+#slide1::before,#slide1::after{content:'';position:absolute;width: min(72vw,620px);height:min(72vw,620px);border:1px solid rgba(139,58,98,.12);border-radius:50%;z-index:-1}
+#slide1::before{width:min(88vw,760px);height:min(88vw,760px)}
+#slide1::after{width:min(68vw,580px);height:min(68vw,580px);border-style:dashed;animation:spin 90s linear infinite}
+#slide1 h1{font-family:'Dancing Script',cursive;font-size:clamp(2.2rem,6vw,4rem);color:var(--deep);margin-bottom:.3rem;text-shadow:0 3px 20px rgba(139,58,98,.12);animation:fadeDown .8s ease-out}
+#slide1 .subtitle{font-size:clamp(1rem,3vw,1.4rem);color:#9b6a9b;margin-bottom:2rem;animation:fadeDown 1s ease-out}
+#slide1 .cake{font-size:clamp(3rem,10vw,5rem);margin-bottom:1.5rem;animation:bounce 2s infinite}
+#slide1 .question{font-size:clamp(1.1rem,3vw,1.5rem);font-weight:500;margin-bottom:1.8rem;animation:fadeIn 1.2s}
+.btn-row{display:flex;gap:1.2rem;flex-wrap:wrap;justify-content:center;position:relative;min-height:80px;width:100%;max-width:400px}
+.btn{padding:.8rem 2rem;border:none;border-radius:2rem;font-family:'Poppins',sans-serif;font-size:1rem;font-weight:600;cursor:pointer;transition:transform .15s,box-shadow .15s;box-shadow:0 4px 15px rgba(0,0,0,.12)}
+.btn:active{transform:scale(.96)}
+#yes-btn{background:linear-gradient(135deg,var(--pink),#e895b3);color:#fff}
+#yes-btn:hover{transform:scale(1.05);box-shadow:0 6px 20px rgba(248,180,200,.5)}
+#no-btn{background:linear-gradient(135deg,#ddd,#ccc);color:#666;transition:none;z-index:100}
+#result{display:none;animation:fadeIn .6s}
+#result h2{font-family:'Dancing Script',cursive;font-size:clamp(1.6rem,4vw,2.4rem);color:var(--deep);margin-bottom:1rem}
+#continue1{margin-top:1.5rem;background:linear-gradient(135deg,var(--gold),#c49630);color:#fff}
+
+/* Balloons container */
+#balloons{position:fixed;bottom:0;left:0;width:100%;height:100%;pointer-events:none;z-index:998;display:none}
+.balloon{position:absolute;bottom:-80px;width:clamp(35px,8vw,50px);height:clamp(45px,10vw,65px);border-radius:50% 50% 50% 50%/60% 60% 40% 40%;opacity:.9;animation:floatUp 4s ease-in forwards}
+.balloon::after{content:'';position:absolute;bottom:-10px;left:50%;width:1px;height:20px;background:rgba(0,0,0,.2);transform:translateX(-50%)}
+
+/* ═══ SLIDE 2 ═══ */
+#slide2{background:linear-gradient(180deg,#fff5ee,#fff0f5);padding:2rem 1rem}
+.letter-wrap{position:relative;max-width:650px;width:100%;background:rgba(255,255,255,.88);border-radius:1.2rem;padding:clamp(1.5rem,4vw,3rem);box-shadow:0 8px 40px rgba(139,58,98,.1);border:1px solid rgba(212,168,67,.2);overflow:hidden}
+.letter-bg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:70%;max-width:300px;opacity:.08;pointer-events:none;border-radius:1rem;object-fit:cover}
+.letter-wrap h2{font-family:'Dancing Script',cursive;font-size:clamp(1.5rem,4vw,2.2rem);color:var(--deep);margin-bottom:1rem;position:relative;z-index:1}
+.letter-wrap p{font-size:clamp(.92rem,2.5vw,1.05rem);line-height:1.8;margin-bottom:1rem;position:relative;z-index:1;text-align:left}
+.letter-wrap .sign{text-align:right;font-weight:600;color:var(--deep)}
+#continue2{margin-top:1.5rem;background:linear-gradient(135deg,var(--gold),#c49630);color:#fff}
+
+/* ═══ SLIDE 3 ═══ */
+#slide3{background:linear-gradient(135deg,#fff0f5,#ffecd2)}
+#game-area{position:relative;width:100%;max-width:500px;height:60vh;max-height:500px;background:rgba(255,255,255,.4);border-radius:1.2rem;border:2px dashed var(--pink);overflow:hidden;touch-action:none;cursor:crosshair}
+.game-balloon{position:absolute;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;cursor:pointer;transition:transform .1s;user-select:none;display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+.game-balloon:hover{transform:scale(1.1)}
+.pop{animation:pop .3s ease-out forwards}
+#score-bar{display:flex;align-items:center;justify-content:space-between;width:100%;max-width:500px;margin-bottom:1rem}
+#score-bar h2{font-family:'Dancing Script',cursive;font-size:1.6rem;color:var(--deep)}
+#score{font-size:1.3rem;font-weight:600;color:var(--gold)}
+#play-again{margin-top:1.2rem;background:linear-gradient(135deg,var(--pink),#e895b3);color:#fff}
+
+/* Game end screen */
+#game-end{display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;width:100%;max-width:500px;padding:2rem;animation:fadeIn .6s}
+#game-end h2{font-family:'Dancing Script',cursive;font-size:clamp(1.8rem,5vw,2.6rem);color:var(--deep);margin-bottom:.5rem}
+#game-end .end-emoji{font-size:clamp(3rem,10vw,5rem);margin-bottom:1rem}
+#game-end .end-msg{font-size:clamp(1rem,3vw,1.2rem);color:var(--soft-text);margin-bottom:.3rem}
+#game-end .final-score{font-size:clamp(1.3rem,4vw,1.8rem);font-weight:700;color:var(--gold);margin-bottom:1.5rem}
+
+/* ── Keyframes ── */
+@keyframes fadeDown{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes floatUp{0%{transform:translateY(0) rotate(0);opacity:.9}100%{transform:translateY(-110vh) rotate(15deg);opacity:0}}
+@keyframes pop{0%{transform:scale(1);opacity:1}50%{transform:scale(1.4);opacity:.5}100%{transform:scale(0);opacity:0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+
+<!-- Sparkle overlay -->
+<canvas id="sparkle-canvas"></canvas>
+
+<!-- Music -->
+<button id="music-ctrl" onclick="toggleMusic()" aria-label="Play birthday music">🎵 <span id="music-label">Play music</span></button>
+<div id="music-note">Birthday song: <strong>pal.mp3</strong></div>
+<audio id="bgm" loop preload="auto" autoplay><source src="pal.mp3" type="audio/mpeg"></audio>
+
+<!-- Balloon celebration overlay -->
+<div id="balloons"></div>
+
+<!-- ═══════ SLIDE 1 ═══════ -->
+<section class="slide active" id="slide1">
+  <div class="deco" style="top:8%;left:5%">🎈</div>
+  <div class="deco" style="top:12%;right:8%">🎉</div>
+  <div class="deco" style="bottom:15%;left:10%">🎀</div>
+  <div class="deco" style="bottom:10%;right:6%">✨</div>
+  <div class="deco" style="top:40%;left:2%">🌸</div>
+  <div class="deco" style="top:35%;right:3%">🎂</div>
+
+  <div class="cake">🎂</div>
+  <h1>Happy Birthday, Khushbu Didi!</h1>
+  <p class="subtitle">A little celebration for someone who makes life brighter ✨</p>
+
+  <div id="q-section">
+    <p class="question">Do you love your brother? 💕</p>
+    <div class="btn-row" id="btn-row">
+      <button class="btn" id="yes-btn" onclick="sayYes()">YES — YASH 💖</button>
+      <button class="btn" id="no-btn" onclick="runAway()">NO 😶</button>
+    </div>
+  </div>
+
+  <div id="result">
+    <h2>Yay! You're the best sister! 🥰🎉</h2>
+    <button class="btn" id="continue1" onclick="goSlide(2)">Read My Letter →</button>
+  </div>
+</section>
+
+<!-- ═══════ SLIDE 2 ═══════ -->
+<section class="slide" id="slide2">
+  <button class="nav-btn" onclick="goSlide(1)" aria-label="Back">← Back</button>
+  <div class="letter-wrap">
+    <!-- Place khushbu.jpg in the same folder -->
+    <img src="khushbu.jpg" alt="" class="letter-bg" onerror="this.style.display='none'">
+    <h2>A Letter for Khushbu Didi 💌</h2>
+    <p>Dear Khushbu Didi,</p>
+    <p>Happy Birthday to the best sister in the world! I'm so grateful to have you in my life.</p>
+    <p>You're more than my sister—you're my best friend, my teacher, and someone who has cared for me like a mother. I may not always have the words to express how much I respect and love you, but I hope you know this: whenever you need me, I'll always be there for you.</p>
+    <p>Even though I'm your little brother, you can count on me like a big brother whenever you need support. In good times or difficult ones, just reach out. If you need anything, call me—I'm only a call away.</p>
+    <p>I hope this year brings you as much happiness, laughter, and love as you bring to everyone around you. You deserve the very best.</p>
+    <p class="sign">With lots of love,<br>Your small bro,<br><strong>YASH</strong> ❤️</p>
+  </div>
+  <button class="btn" id="continue2" onclick="goSlide(3)">Play a Game! 🎈</button>
+</section>
+
+<!-- ═══════ SLIDE 3 ═══════ -->
+<section class="slide" id="slide3">
+  <button class="nav-btn" onclick="goSlide(2)" aria-label="Back">← Back</button>
+  <div id="score-bar">
+    <h2>Pop the Balloons! 🎈</h2>
+    <div id="score">Score: 0</div>
+  </div>
+  <div id="game-area"></div>
+  <div id="game-end">
+    <div class="end-emoji">🎉🎂🥳</div>
+    <h2>Amazing, Khushbu Didi!</h2>
+    <p class="end-msg">You popped all the balloons!</p>
+    <p class="final-score" id="final-score">Score: 10 / 10</p>
+    <button class="btn" id="play-again-end" onclick="resetGame()" style="background:linear-gradient(135deg,var(--pink),#e895b3);color:#fff">Play Again 🔄</button>
+  </div>
+  <button class="btn" id="play-again" onclick="resetGame()">Play Again 🔄</button>
+</section>
+
+<script>
+/* ── Sparkles ── */
+const cv=document.getElementById('sparkle-canvas'),ctx=cv.getContext('2d');
+let sparks=[];
+function resizeCanvas(){cv.width=innerWidth;cv.height=innerHeight}
+resizeCanvas();addEventListener('resize',resizeCanvas);
+const prefersReduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function spawnSparkle(){if(prefersReduced)return;sparks.push({x:Math.random()*cv.width,y:Math.random()*cv.height,r:Math.random()*2+.5,a:Math.random(),d:Math.random()*.02+.005,f:Math.random()>.5?1:-1})}
+function drawSparkles(){ctx.clearRect(0,0,cv.width,cv.height);sparks.forEach((s,i)=>{s.a+=s.d*s.f;if(s.a<=0||s.a>=1)s.f*=-1;ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fillStyle=`rgba(212,168,67,${s.a*.4})`;ctx.fill()});if(sparks.length<40)spawnSparkle();requestAnimationFrame(drawSparkles)}
+if(!prefersReduced)drawSparkles();
+
+/* ── Music ── */
+const bgm=document.getElementById('bgm'),mLabel=document.getElementById('music-label'),musicButton=document.getElementById('music-ctrl');
+let playing=false;
+function setMusicState(isPlaying){playing=isPlaying;mLabel.textContent=isPlaying?'Pause music':'Play music';musicButton.setAttribute('aria-label',isPlaying?'Pause birthday music':'Play birthday music')}
+function toggleMusic(){if(playing){bgm.pause();setMusicState(false)}else{bgm.play().then(()=>setMusicState(true)).catch(()=>{setMusicState(false);mLabel.textContent='Tap to play'})}}
+bgm.addEventListener('play',()=>setMusicState(true));
+bgm.addEventListener('pause',()=>setMusicState(false));
+bgm.addEventListener('error',()=>{setMusicState(false);mLabel.textContent='Music unavailable'});
+// Try autoplay on load; if the browser blocks it, start on the very first user interaction.
+bgm.play().then(()=>setMusicState(true)).catch(()=>{
+  setMusicState(false);
+  function autoStart(){bgm.play().then(()=>setMusicState(true)).catch(()=>{});document.removeEventListener('click',autoStart);document.removeEventListener('touchstart',autoStart)}
+  document.addEventListener('click',autoStart,{once:false});
+  document.addEventListener('touchstart',autoStart,{once:false});
+});
+
+/* ── Slide navigation ── */
+function goSlide(n){document.querySelectorAll('.slide').forEach(s=>s.classList.remove('active'));document.getElementById('slide'+n).classList.add('active');scrollTo(0,0);if(n===3&&!gameRunning)startGame()}
+
+/* ── NO button runaway (fast corner cycle) ── */
+let cornerIdx=0,noInterval=null;
+const corners=[{top:'1rem',left:'1rem'},{top:'1rem',right:'1rem'},{bottom:'6rem',right:'1rem'},{bottom:'6rem',left:'1rem'}];
+function moveNo(){const b=document.getElementById('no-btn');b.style.position='fixed';b.style.top='auto';b.style.right='auto';b.style.bottom='auto';b.style.left='auto';Object.assign(b.style,corners[cornerIdx%corners.length]);cornerIdx++}
+function runAway(){if(noInterval)return;moveNo();noInterval=setInterval(moveNo,400)}
+
+/* ── YES ── */
+function sayYes(){document.getElementById('q-section').style.display='none';document.getElementById('result').style.display='block';launchBalloons()}
+
+/* ── Celebration balloons ── */
+function launchBalloons(){if(prefersReduced)return;const c=document.getElementById('balloons');c.style.display='block';c.innerHTML='';const colors=['#f8b4c8','#fcd5c0','#f0d68a','#e895b3','#a8d8ea','#c3aed6','#ffd3b6'];for(let i=0;i<18;i++){const b=document.createElement('div');b.className='balloon';b.style.left=Math.random()*90+5+'%';b.style.background=colors[i%colors.length];b.style.animationDelay=Math.random()*2+'s';b.style.animationDuration=3+Math.random()*3+'s';c.appendChild(b)}setTimeout(()=>c.style.display='none',7000)}
+
+/* ── Balloon Game ── */
+const MAX_POPS=10;
+let score=0,gameRunning=false,spawnTimer;
+const colors=['#f8b4c8','#fcd5c0','#f0d68a','#e895b3','#a8d8ea','#c3aed6','#ff9a9e','#96e6a1'];
+const faces=['🎈','🎁','⭐','🎀','💖','🌸','🎉','✨'];
+function startGame(){gameRunning=true;score=0;updScore();document.getElementById('game-area').style.display='';document.getElementById('score-bar').style.display='';document.getElementById('play-again').style.display='';document.getElementById('game-end').style.display='none';spawnTimer=setInterval(spawnGameBalloon,900)}
+function updScore(){document.getElementById('score').textContent='Score: '+score+' / '+MAX_POPS}
+function endGame(){clearInterval(spawnTimer);gameRunning=false;document.getElementById('game-area').innerHTML='';document.getElementById('game-area').style.display='none';document.getElementById('score-bar').style.display='none';document.getElementById('play-again').style.display='none';document.getElementById('final-score').textContent='Score: '+score+' / '+MAX_POPS;document.getElementById('game-end').style.display='flex';launchBalloons()}
+function spawnGameBalloon(){if(!gameRunning)return;const area=document.getElementById('game-area');if(area.children.length>12)return;const b=document.createElement('div');b.className='game-balloon';const sz=Math.random()*20+40;b.style.width=sz+'px';b.style.height=sz*1.25+'px';b.style.background=colors[Math.floor(Math.random()*colors.length)];b.style.left=Math.random()*(area.offsetWidth-sz)+'px';b.style.top=Math.random()*(area.offsetHeight-sz)+'px';b.textContent=faces[Math.floor(Math.random()*faces.length)];b.addEventListener('pointerdown',e=>{e.preventDefault();if(!gameRunning)return;b.classList.add('pop');score++;updScore();setTimeout(()=>b.remove(),300);if(score>=MAX_POPS)endGame()});area.appendChild(b);setTimeout(()=>{if(b.parentNode&&!b.classList.contains('pop'))b.remove()},3000)}
+function resetGame(){clearInterval(spawnTimer);document.getElementById('game-area').innerHTML='';startGame()}
+</script>
+</body>
+</html>
+

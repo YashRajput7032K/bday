@@ -1,0 +1,16 @@
+{
+  "id":  "cb37f85c-ee7e-4c19-b43a-5d21b830b70a",
+  "name":  "A2 LAB POTFOLIO",
+  "projectResources":  {
+    "resources":  [
+      {
+        "folderUri":  "file:///Users/yashprabhusingrajput/Desktop/A2%20LAB%20POTFOLIO"
+      }
+    ]
+  },
+  "permissionGrants":  {
+    "v2Migrated":  true
+  },
+  "settings":  {},
+  "isWorkspaceOnly":  false
+}

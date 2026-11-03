@@ -1,0 +1,96 @@
+I1031 14:11:32.992714      24 server.go:1897] Starting language server process with pid 12107
+I1031 14:11:32.994146      24 server.go:1953] Language server version: 2.28.2
+I1031 14:11:32.994191      24 server.go:729] Language server will attempt to listen on host localhost
+I1031 14:11:32.995048      24 server.go:744] Language server listening on random port at 52541 for HTTPS (gRPC)
+I1031 14:11:32.995214      24 server.go:752] Language server listening on random port at 52533 for HTTP
+I1031 14:11:33.013115      24 auth_provider.go:1289] [AuthProvider] SetWIFProvider called with wifProvider: ""
+I1031 14:11:33.013173      24 auth_provider.go:1325] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1031 14:11:33.013195      24 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1031 14:11:33.013199      24 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1031 14:11:33.013202      24 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1031 14:11:33.016295      79 store_client.go:714] summary store: starting background reconciliation (trigger=startup)
+I1031 14:11:33.016644      79 store_client.go:764] summary store: reconciliation complete, synced 1 records
+I1031 14:11:33.415216      68 auth_provider.go:1257] [AuthProvider] SetProjectID called with projectID: ""
+I1031 14:11:33.415383      68 auth_provider.go:1265] [AuthProvider] SetLocation called with location: ""
+I1031 14:11:33.415419      68 auth_provider.go:1273] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1031 14:11:35.890176      73 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x612c6aebe6f0c23e
+I1031 14:11:35.964550      68 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5e62b859048d737c
+W1031 14:11:36.536006      24 defaults.go:732] failed to get cs path: cs path /usr/bin/cs invalid
+I1031 14:11:36.536155      24 manager.go:120] Creating trajectory store manager with proto store and SQLite store
+I1031 14:11:36.537494     207 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1031 14:11:36.537684     207 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:36.537707     207 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1031 14:11:36.537807     207 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:36.537822     207 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1031 14:11:36.537914     207 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:36.537925     207 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1031 14:11:36.560813      24 server.go:1568] Serving UI bundle from embedded assets
+I1031 14:11:36.560877      24 server.go:3653] Auth succeeded, refreshing features and managers
+I1031 14:11:38.158455     149 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa1e7a329f93a19f9
+I1031 14:11:39.687555      73 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x313a98e1be2b5646
+I1031 14:11:39.696711      73 http_helpers.go:84] UseAICodeMendel routing switch changed: false -> true
+I1031 14:11:39.696736     207 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1031 14:11:39.696796      73 remote_agent.go:178] Remote agent fastpush pin gate changed: false -> true
+I1031 14:11:39.697264     207 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:39.697356     207 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1031 14:11:39.697416     207 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1031 14:11:39.697478     207 manager.go:95] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1031 14:11:40.398957      24 server.go:3665] State refresh took 3838ms
+I1031 14:11:40.399034      24 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1031 14:11:40.399443      24 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1031 14:11:40.399461      24 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1031 14:11:40.399499      24 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1031 14:11:40.399575      24 server.go:3704] Retroactive projects migration enabled: true
+I1031 14:11:40.399974      24 projects_migration.go:552] Projects migration already started or completed, skipping
+I1031 14:11:40.400422     245 reconcile_summaries.go:94] [Summaries] reconcile checked 1 conversations, restored 0, cached 1, skipped 0, dropped 0, cancelled false in 0ms (resident: 0 -> 0)
+I1031 14:11:40.403509     240 server.go:3675] [RemoteControl] Subscription callback triggered.
+I1031 14:11:40.403545     252 manager.go:98] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1031 14:11:40.403481      24 profiler.go:231] Continuous pprof profiling is disabled.
+I1031 14:11:40.403722     252 manager.go:107] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:40.403733     240 server.go:3678] [RemoteControl] RemoteControlEnabled value: false
+I1031 14:11:40.403754     240 server.go:4483] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1031 14:11:40.403766     240 server.go:4182] [RemoteControl] Resolved proxyServerURL: ""
+I1031 14:11:40.403740     252 manager.go:98] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1031 14:11:40.403893     252 manager.go:107] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:40.403911     252 manager.go:98] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1031 14:11:40.404024     252 manager.go:107] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:40.404037     252 manager.go:95] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1031 14:11:40.404087     252 manager.go:98] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1031 14:11:40.404192     252 manager.go:107] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:40.404227     252 manager.go:95] Migration [MIGRATION_ID_GDRIVE_BUILTIN_PLUGIN] is disabled, skipping entirely
+I1031 14:11:40.404262     252 manager.go:95] Migration [MIGRATION_ID_SPLIT_SCIENCE_PLUGIN] is disabled, skipping entirely
+I1031 14:11:40.404274     252 manager.go:98] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is enabled
+I1031 14:11:40.404381     252 manager.go:107] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1031 14:11:40.404424      24 server.go:3357] Wrote hub discovery file: /Users/yashprabhusingrajput/.gemini/antigravity/daemon/hub_52533.json
+I1031 14:11:40.404453      24 server.go:3140] initialized server successfully in 7.411514083s
+I1031 14:17:34.772500     685 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xdbb7b7e0db0d3b75
+I1031 14:17:35.503538     722 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb39f7bd2f92a972b
+I1031 14:23:34.237640    1106 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x17a051a2cdfed622
+I1031 14:23:35.561042    1085 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf10d4891a4cfb43d
+I1031 14:41:48.843012    1521 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x89e4f0de151b2301
+I1031 14:41:49.413978    1489 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x602193e629d8b275
+I1031 14:47:48.595055    1887 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb1f6dd83f1028b9c
+I1031 14:47:49.246701    1913 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x964f16a934ac66aa
+I1031 14:53:48.594067    2283 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xddb744b75caf7a19
+I1031 14:53:49.384624    2292 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8a8a0228fe8c68ca
+I1031 14:59:48.895019    2680 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x5a94e1176de6a143
+I1031 14:59:49.443659    2660 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xac7e6b91dae70045
+I1031 15:05:48.563329    3093 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7d06339196166827
+I1031 15:05:48.860979    3076 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x26cfd3e180d51dcc
+I1031 15:11:49.048104    3485 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb267e9964e3b2e5b
+I1031 15:11:49.724922    3457 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd7d6648e8d88b0fc
+I1031 15:17:48.639687    3890 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6408ab7cc26dfba3
+I1031 15:17:49.330895    3863 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1c305bb5c0850566
+I1031 15:23:48.084467    4272 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x41eb472b46da935f
+I1031 15:23:49.405861    4220 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbc5bf4e0a265bc38
+I1031 15:29:48.123629    4679 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x827fba690dac362b
+I1031 15:29:49.441988    4624 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe13573d23ec3e6a0
+I1031 15:35:48.614679    5035 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x569958a426163adc
+I1031 15:35:49.381282    5075 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa4368eac088c8a96
+W1031 15:50:53.277789      73 code_assist_client.go:207] AICode FetchConfig failed, falling back to CCPA ListExperiments: failed to make AI Code FetchConfig request: Get "https://aicode.googleapis.com/v1alpha:fetchConfig": context deadline exceeded
+I1031 15:50:55.650501    5455 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x3e98ce489f1ad45f
+I1031 15:50:56.064096    4428 http_helpers.go:359] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3bef8d9715d13801
+I1031 15:51:32.576192     127 server.go:3460] Got signal terminated, shutting down
+I1031 15:51:32.576251    5539 server.go:3502] Language server shutting down
+I1031 15:51:32.576282    5539 server.go:3507] Waiting for migrations to complete to prevent partial migration state...
+I1031 15:51:32.576714    5539 server.go:3593] Deleted discovery file: /Users/yashprabhusingrajput/.gemini/antigravity/daemon/hub_52533.json
