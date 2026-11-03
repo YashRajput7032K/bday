@@ -55,17 +55,30 @@ body{font-family:'Poppins',sans-serif;background:var(--cream);color:var(--soft-t
 .balloon{position:absolute;bottom:-80px;width:clamp(35px,8vw,50px);height:clamp(45px,10vw,65px);border-radius:50% 50% 50% 50%/60% 60% 40% 40%;opacity:.9;animation:floatUp 4s ease-in forwards}
 .balloon::after{content:'';position:absolute;bottom:-10px;left:50%;width:1px;height:20px;background:rgba(0,0,0,.2);transform:translateX(-50%)}
 
-/* ═══ SLIDE 2 ═══ */
-#slide2{background:linear-gradient(180deg,#fff5ee,#fff0f5);padding:2rem 1rem}
+/* ═══ SLIDE 2 — Balloon Reveal ═══ */
+#slide2{background:linear-gradient(135deg,#ffecd2,#fff0f5)}
+#slide2 .reveal-balloon{width:clamp(80px,20vw,120px);height:clamp(100px,25vw,155px);background:linear-gradient(135deg,#f8b4c8,#e895b3);border-radius:50% 50% 50% 50%/60% 60% 40% 40%;margin:0 auto;position:relative;cursor:default;box-shadow:0 8px 30px rgba(248,180,200,.4)}
+#slide2 .reveal-balloon::after{content:'';position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);width:2px;height:40px;background:rgba(139,58,98,.3)}
+@keyframes riseUp{0%{transform:translateY(60vh) scale(.6);opacity:0}60%{transform:translateY(0) scale(1);opacity:1}100%{transform:translateY(0) scale(1);opacity:1}}
+@keyframes burst{0%{transform:scale(1);opacity:1}40%{transform:scale(1.6);opacity:.6}100%{transform:scale(2.5);opacity:0}}
+#slide2 .reveal-balloon.rising{animation:riseUp 2s ease-out forwards}
+#slide2 .reveal-balloon.bursting{animation:burst .5s ease-out forwards}
+#slide2 .reveal-photo{display:none;animation:fadeIn .8s ease-out}
+#slide2 .reveal-photo img{width:clamp(200px,60vw,340px);border-radius:1.2rem;box-shadow:0 10px 40px rgba(139,58,98,.2);border:4px solid rgba(212,168,67,.3)}
+#slide2 .reveal-photo h2{font-family:'Dancing Script',cursive;font-size:clamp(1.5rem,4vw,2.2rem);color:#8b3a62;margin-top:1rem}
+#continue-s2{margin-top:1.5rem;background:linear-gradient(135deg,var(--gold),#c49630);color:#fff}
+
+/* ═══ SLIDE 3 — Letter ═══ */
+#slide3{background:linear-gradient(180deg,#fff5ee,#fff0f5);padding:2rem 1rem}
 .letter-wrap{position:relative;max-width:650px;width:100%;background:rgba(255,255,255,.88);border-radius:1.2rem;padding:clamp(1.5rem,4vw,3rem);box-shadow:0 8px 40px rgba(139,58,98,.1);border:1px solid rgba(212,168,67,.2);overflow:hidden}
-.letter-bg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:70%;max-width:300px;opacity:.08;pointer-events:none;border-radius:1rem;object-fit:cover}
+.letter-bg{position:absolute;top:0;left:0;width:100%;height:100%;opacity:.18;pointer-events:none;object-fit:cover;border-radius:1.2rem}
 .letter-wrap h2{font-family:'Dancing Script',cursive;font-size:clamp(1.5rem,4vw,2.2rem);color:var(--deep);margin-bottom:1rem;position:relative;z-index:1}
 .letter-wrap p{font-size:clamp(.92rem,2.5vw,1.05rem);line-height:1.8;margin-bottom:1rem;position:relative;z-index:1;text-align:left}
 .letter-wrap .sign{text-align:right;font-weight:600;color:var(--deep)}
 #continue2{margin-top:1.5rem;background:linear-gradient(135deg,var(--gold),#c49630);color:#fff}
 
-/* ═══ SLIDE 3 ═══ */
-#slide3{background:linear-gradient(135deg,#fff0f5,#ffecd2)}
+/* ═══ SLIDE 4 — Game ═══ */
+#slide4{background:linear-gradient(135deg,#fff0f5,#ffecd2)}
 #game-area{position:relative;width:100%;max-width:500px;height:60vh;max-height:500px;background:rgba(255,255,255,.4);border-radius:1.2rem;border:2px dashed var(--pink);overflow:hidden;touch-action:none;cursor:crosshair}
 .game-balloon{position:absolute;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;cursor:pointer;transition:transform .1s;user-select:none;display:flex;align-items:center;justify-content:center;font-size:1.2rem}
 .game-balloon:hover{transform:scale(1.1)}
@@ -131,9 +144,21 @@ body{font-family:'Poppins',sans-serif;background:var(--cream);color:var(--soft-t
   </div>
 </section>
 
-<!-- ═══════ SLIDE 2 ═══════ -->
+<!-- ═══════ SLIDE 2 — Balloon Reveal ═══════ -->
 <section class="slide" id="slide2">
   <button class="nav-btn" onclick="goSlide(1)" aria-label="Back">← Back</button>
+  <h2 style="font-family:'Dancing Script',cursive;font-size:clamp(1.4rem,4vw,2rem);color:#8b3a62;margin-bottom:2rem">A little surprise for you… 🎁</h2>
+  <div class="reveal-balloon" id="revealBalloon">🎈</div>
+  <div class="reveal-photo" id="revealPhoto">
+    <img src="surprise.jpg" alt="Khushbu Didi">
+    <h2>Happy Birthday, Khushbu Didi! 🥳💖</h2>
+    <button class="btn" id="continue-s2" onclick="goSlide(3)">Read My Letter →</button>
+  </div>
+</section>
+
+<!-- ═══════ SLIDE 3 — Letter ═══════ -->
+<section class="slide" id="slide3">
+  <button class="nav-btn" onclick="goSlide(2)" aria-label="Back">← Back</button>
   <div class="letter-wrap">
     <!-- Place khushbu.jpg in the same folder -->
     <img src="khushbu.jpg" alt="" class="letter-bg" onerror="this.style.display='none'">
@@ -145,12 +170,12 @@ body{font-family:'Poppins',sans-serif;background:var(--cream);color:var(--soft-t
     <p>I hope this year brings you as much happiness, laughter, and love as you bring to everyone around you. You deserve the very best.</p>
     <p class="sign">With lots of love,<br>Your small bro,<br><strong>YASH</strong> ❤️</p>
   </div>
-  <button class="btn" id="continue2" onclick="goSlide(3)">Play a Game! 🎈</button>
+  <button class="btn" id="continue2" onclick="goSlide(4)">Play a Game! 🎈</button>
 </section>
 
-<!-- ═══════ SLIDE 3 ═══════ -->
-<section class="slide" id="slide3">
-  <button class="nav-btn" onclick="goSlide(2)" aria-label="Back">← Back</button>
+<!-- ═══════ SLIDE 4 — Game ═══════ -->
+<section class="slide" id="slide4">
+  <button class="nav-btn" onclick="goSlide(3)" aria-label="Back">← Back</button>
   <div id="score-bar">
     <h2>Pop the Balloons! 🎈</h2>
     <div id="score">Score: 0</div>
@@ -194,7 +219,11 @@ bgm.play().then(()=>setMusicState(true)).catch(()=>{
 });
 
 /* ── Slide navigation ── */
-function goSlide(n){document.querySelectorAll('.slide').forEach(s=>s.classList.remove('active'));document.getElementById('slide'+n).classList.add('active');scrollTo(0,0);if(n===3&&!gameRunning)startGame()}
+function goSlide(n){document.querySelectorAll('.slide').forEach(s=>s.classList.remove('active'));document.getElementById('slide'+n).classList.add('active');scrollTo(0,0);if(n===2)startBalloonReveal();if(n===4&&!gameRunning)startGame()}
+
+/* ── Balloon Reveal (Slide 2) ── */
+let revealStarted=false;
+function startBalloonReveal(){if(revealStarted)return;revealStarted=true;const bl=document.getElementById('revealBalloon');const ph=document.getElementById('revealPhoto');bl.style.display='';ph.style.display='none';bl.className='reveal-balloon rising';setTimeout(()=>{bl.className='reveal-balloon bursting';setTimeout(()=>{bl.style.display='none';ph.style.display='block';revealStarted=false},500)},2500)}
 
 /* ── NO button runaway (fast corner cycle) ── */
 let cornerIdx=0,noInterval=null;
